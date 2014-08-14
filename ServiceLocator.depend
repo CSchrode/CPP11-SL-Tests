@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1405199055 source:/home/cschrode/ServiceLocator/main.cpp
+	<iostream>
+	<fstream>
+	<memory>
+
+1408051531 source:/home/cschrode/ServiceLocator/src/command.cpp
+	"includes/command.h"
+
+1408051575 /home/cschrode/ServiceLocator/src/includes/command.h
+	<string>
+	<deque>
+
+1408051524 source:/home/cschrode/ServiceLocator/src/commandregistry.cpp
+	"includes/commandregistry.h"
+
+1408051565 /home/cschrode/ServiceLocator/src/includes/commandregistry.h
+	<string>
+	<deque>
+	<memory>
+	"logengine.h"
+	"command.h"
+
+1408051543 /home/cschrode/ServiceLocator/src/includes/logengine.h
+	<string>
+	<deque>
+	<vector>
+	<iostream>
+	<fstream>
+
+1408051502 source:/home/cschrode/ServiceLocator/src/logengine.cpp
+	"includes/logengine.h"
+
+1408051513 source:/home/cschrode/ServiceLocator/src/servicelocator.cpp
+	"includes/servicelocator.h"
+
+1408051554 /home/cschrode/ServiceLocator/src/includes/servicelocator.h
+	<memory>
+	"command.h"
+	"commandregistry.h"
+
+1408051677 source:/home/cschrode/ServiceLocator/tests/tests.cpp
+	<iostream>
+	<vector>
+	<deque>
+	<cassert>
+	"../src/includes/servicelocator.h"
+	"../src/includes/commandregistry.h"
+	"../src/includes/command.h"
+	"../src/includes/logengine.h"
+
